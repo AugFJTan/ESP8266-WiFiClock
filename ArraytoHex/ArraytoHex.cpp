@@ -110,11 +110,11 @@ int main()
 
 void decode(std::string parsed_string, int *hex, int *add)
 {
-	if(parsed_string == "0x00000000")
+	if(parsed_string == "0x00000000") //Transparent
 	{
 		std::cout << "0";
 	}
-	else if (parsed_string == "0xff000000")
+	else if (parsed_string == "0xff000000") //Black
 	{
 		std::cout << "1";
 		*hex += *add;
