@@ -4,6 +4,10 @@
 
 Utilizing the ESP8266's capability to retrieve the current time in the form of a Unix timestamp (a long-type number of how many seconds elapsed since the last epoch, i.e. January 1, 1970) from an NTP server, we are able to process the timestamp and output it in a human-readable form on a display screen. As if that wasn't enough, why don't we add a feature where we can view the latest weather information? With custom weather icons, no less? 
 
+## Background
+
+The design of the WiFi clock is largely inspired by Ubuntu, a Linux distro. The startup screen resembles that of the Ubuntu terminal, with the colour scheme and font to match. A weather API called [Dark Sky](https://darksky.net) is used to obtain weather data in the JSON format. As the ESP8266 has limited memory, a streaming parser is used to collect necessary data, instead of storing the entire JSON tree in memory.
+
 ## Hardware & Software Requirements
 
 In terms of hardware, you will need:
