@@ -24,7 +24,7 @@ Run the executable with `./ArraytoHex`. The output should look something like th
 
 ![ArraytoHex](/images/ArraytoHex.png)
 
-There should be an output file called `hex.txt` with the hexadecimal output as shown on the command line. Copy its contents and create a header that is similar to a font header file. Use this template to help you get started:
+There should be an output file called `hex.txt` with the hexadecimal output as shown on the command line. Copy its contents and create a header file that is similar to a font header file. Use this template to help you get started:
 
 ```c
 const uint8_t MyIconsBitmaps[] PROGMEM = {
