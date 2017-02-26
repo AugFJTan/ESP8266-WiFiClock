@@ -56,6 +56,6 @@ Save the file as `MyIcons.h` or whatever you fancy and place the file in the `Fo
 
 ![Small LOL](/images/SmallLOL.jpg)
 
-And viola! You can now display custom icons on your display screen. But it's a little small, but we can enlarge it with the `setTextSize` function:
+And viola! You can now display custom icons on your display screen. It's a little small, but we can enlarge it with the `setTextSize` function:
 
 ![Big LOL](/images/BigLOL.jpg)
