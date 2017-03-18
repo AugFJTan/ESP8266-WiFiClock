@@ -49,6 +49,6 @@ git clone https://github.com/AugFJTan/ESP8266-WiFiClock
 
 ## Further Reading
 
-* [Converting fonts](docs/Converting fonts.md)
+* [Converting fonts](docs/Convertingfonts.md)
 * [Switching between different fonts](docs/Switching between different fonts.md)
 * [Creating custom icons](docs/Creating custom icons.md)
