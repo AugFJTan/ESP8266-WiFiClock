@@ -2,7 +2,7 @@
 
 It is possible to load images from an SD card and print them as icons on the display, but this is not covered in the scope of this project. Instead, we will use a simple trick to treat icons we create as fonts. This not only saves space but is efficient and easy to use.
 
-Take a look at any Adafruit GFX font and you will find that the fonts are listed in an array of hexadecimal values. If you convert each hexadecimal value to binary and put them in a box following a given width and height, you will find that the 1's form the shape of a charcter corresponding to its ASCII value. With this idea in mind, we can create images in place of these characters.
+Take a look at any Adafruit GFX font and you will find that the fonts are listed in an array of hexadecimal values. If you convert each hexadecimal value to binary and put them in a box following a given width and height, you will find that the 1's form the shape of a character corresponding to its ASCII value. With this idea in mind, we can create images in place of these characters.
 
 As of right now, I have written a very rudimentary program in C++ called [ArraytoHex](../ArraytoHex/ArraytoHex.cpp) that takes the C output from [Piskel](http://www.piskelapp.com/) and uses it to create a hex array. Before using it, you first have to create a drawing on Piskel. 
 
