@@ -377,7 +377,7 @@ void retrieveWeather(){
 
   String exclude = "";
 
-  // Hourly data is excluded when future forecast data is not needed; however, it is included at initilization and every 15 minutes
+  // Hourly data is excluded when future forecast data is not needed; however, it is included at initialization and every 15 minutes
   if(initialized && minute() != 0 && minute() % 15 != 0)
   {
       exclude += "hourly,";
