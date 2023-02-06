@@ -29,6 +29,8 @@ The libraries used here are third-party libraries you can download from Github. 
 
 The documentation for the Dark Sky API used in this project can be found [here](https://darksky.net/dev/docs). You will need to create an account and obtain a special API key. This key will be required when sending GET requests.
 
+**2023 Update:** As of 31 March 2023, the Dark Sky API will be discontinued (thanks, Apple). You may find a drop-in replacement with [Pirate Weather](https://pirateweather.net/), which - despite its unfortunate name - is legal and compatible with the original Dark Sky API format. I will not update the code to use Pirate Weather, but it shouldn't be too hard to get it working with the WiFi clock. Please support Pirate Weather's creator if you can!
+
 ## Usage
 
 1. Download or clone this repository into your desired directory. To clone using git, on the command line, type
